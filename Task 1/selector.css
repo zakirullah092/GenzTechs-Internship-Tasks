@@ -1,0 +1,57 @@
+/* Element Selector */
+h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  /* Class Selector */
+  .class-example {
+    background-color: yellow;
+  }
+  
+  /* ID Selector */
+  #id-example {
+    font-weight: bold;
+    color: blue;
+  }
+  
+  /* Descendant Selector */
+  section p {
+    font-size: 1.1em;
+  }
+  
+  /* Child Selector */
+  section > h2 {
+    color: green;
+  }
+  
+  /* Adjacent Sibling Selector */
+  h2 + p {
+    color: red;
+  }
+  
+  /* General Sibling Selector */
+  h2 ~ ul {
+    border: 1px dashed blue;
+  }
+  
+  /* Attribute Selector */
+  input[type="email"] {
+    border-color: red;
+  }
+  
+  /* Pseudo-classes */
+  a:hover {
+    color: orange;
+  }
+  
+  li:first-child {
+    font-weight: bold;
+  }
+  
+  /* Pseudo-elements */
+  p::first-letter {
+    font-size: 2em;
+    color: red;
+  }
+  
