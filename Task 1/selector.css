@@ -1,28 +1,31 @@
 /* Element Selector */
 h1 {
-    font-size: 2em;
     color: #333;
   }
   
   /* Class Selector */
-  .class-example {
-    background-color: yellow;
+  .grid-container div {
+    border: 2px solid blue;
   }
   
   /* ID Selector */
-  #id-example {
-    font-weight: bold;
-    color: blue;
+  #unique {
+    background-color: yellow;
+  }
+  
+  /* Group Selector */
+  p, li {
+    color: #555;
   }
   
   /* Descendant Selector */
   section p {
-    font-size: 1.1em;
+    font-style: italic;
   }
   
   /* Child Selector */
   section > h2 {
-    color: green;
+    text-transform: uppercase;
   }
   
   /* Adjacent Sibling Selector */
@@ -32,15 +35,15 @@ h1 {
   
   /* General Sibling Selector */
   h2 ~ ul {
-    border: 1px dashed blue;
+    color: green;
   }
   
   /* Attribute Selector */
-  input[type="email"] {
-    border-color: red;
+  input[type="text"] {
+    border: 2px solid red;
   }
   
-  /* Pseudo-classes */
+  /* Pseudo-class */
   a:hover {
     color: orange;
   }
@@ -49,9 +52,9 @@ h1 {
     font-weight: bold;
   }
   
-  /* Pseudo-elements */
+  /* Pseudo-element */
   p::first-letter {
     font-size: 2em;
-    color: red;
+    color: blue;
   }
   
